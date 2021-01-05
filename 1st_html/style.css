@@ -1,0 +1,102 @@
+#fullBody{
+    background: rgb(223, 214, 214);
+}
+
+#headerSection{
+    background: rgb(72, 149, 108);
+    color: white;
+    overflow: hidden;
+    width: 95%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    margin-bottom: .3%;
+}
+#logoSection{  
+    float: left;
+    width: 20%;
+    padding-left: 20px;
+    overflow: hidden;
+}
+#menuBar{
+    float: left;
+    margin-top:0px; 
+    margin-bottom:0px; 
+    overflow: hidden;
+}
+#menuBar ul{
+   
+    list-style: none;
+}
+#menuBar ul li{
+    display: inline-block;
+    position: relative;
+}
+#menuBar ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 0px 10px;
+}
+#menuBar ul li:hover{
+    background: rgb(34, 138, 82);
+}
+
+/* Left Side*/
+#leftSide{
+    background:white;
+    color:rgb(22, 21, 21);
+    float: left;
+    width: 17.7%;
+    margin-left: 2.5%;
+    padding: 1%;
+    margin-right: .3%;
+    
+}
+#leftSideHeader{
+    color: rgb(72, 149, 108);
+    font-size: 25px;
+}
+
+/* Middle Content*/
+#middleContent{
+    background:white;
+    color: rgb(32, 32, 32);
+    text-align: center;
+    float: left;
+    width: 47.7%;
+    padding: 1%;
+    margin-right: .3%;
+
+}
+
+/* Right Side*/
+#rightSide{
+    background: white;
+    color: rgb(14, 13, 13);
+    width: 23%;
+    float: left;
+    margin-right: 2.5%;
+    padding: 1%;
+}
+#picture1{
+    height: 300px;
+    width: 450px;
+}
+#picture2{
+    height: 260px;
+    width: 300px;
+}
+#contentSection{
+    height: 800px;
+    float: bottom;
+}
+
+#footerSection{
+    background: rgb(26, 25, 25);
+    color: white;
+    overflow: hidden;
+    width: 100%;
+    height:200px;
+    font-size: 50px;
+    text-align: center;
+}

@@ -1,0 +1,242 @@
+body,a,ul,h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+
+/* banner start */
+.col-md-3{
+  float: left;
+}
+.logoImg {
+	float: left;
+}
+.topMenu {
+	padding-top: 20px;
+  padding-bottom: 134px;
+  position: relative;
+}
+.logo p {
+	color: #7AC142;
+	font-weight: bold;
+	font-size: 19px;
+	padding-top: 30px;
+}
+.email img {
+	float: left;
+	margin-top: 35px;
+	padding-right: 13px;
+}
+.phone img {
+	float: left;
+	margin-top: 35px;
+	padding-right: 13px;
+}
+
+.email p {
+	color: #002341;
+}.phone p {
+	color: #002341;
+}
+.ep,.pp {
+	font-weight: bold;
+	padding-top: 16px;
+}
+.socialIcon img {
+	border: solid #79C141 1px;
+	padding: 5px;
+	margin-top: 20px;
+}
+/* main menu start */
+.mainMenu li {
+	display: inline-block;
+	width: 11.3%;
+	text-align: center;
+	padding: 25px 0;
+}
+.mainMenu {
+	background: #002341;
+	border-radius: 45px;
+	position: absolute;
+	width: 100%;
+	top: 76%;
+}
+.mainMenu a{
+  color: white;
+}
+/* main menu end */
+
+.bannerTxt{
+  
+  background-image: url(icon/bannerBack.jpg);
+  height: 800px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.text {
+	text-align: center;
+	padding-top: 288px;
+	background: #0a0a5e63;
+	height: 100%;
+}
+.text h1 {
+	color: white;
+	font-size: 48px;
+	font-weight: bold;
+}
+.text p {
+	font-size: 25px;
+  color: white;
+  padding-bottom: 20px;
+}
+.text a {
+	font-size: 20px;
+	color: white;
+	border: solid #7AC142 4px;
+	padding: 5px;
+	border-radius: 25px;
+}
+/* banner end */
+
+/* service start */
+.serviceTitle {
+	text-align: center;
+  padding-top: 100px;
+  padding-bottom: 60px;
+}
+.serviceTitle h1 {
+	font-weight: bold;
+}
+.serviceContent img {
+	width: 100%;
+}
+.serviceContent .col-md-4 {
+  float: left;
+  padding-bottom: 30px;
+}
+/* service end */
+
+/* about start */
+.about {
+	background: #F7F7F7;
+}
+.container .col-md-6 {
+	float: left;
+}
+.aboutWraper {
+	padding: 25px 0;
+}
+.aboutTitle p {
+	font-size: 45px;
+  font-weight: bold;
+  padding: 30px 0;
+}
+.aboutDescription a {
+	color: #7AC142;
+}
+/* abount end */
+
+
+/* gallery start */
+.galleryTitle {
+  float: left;
+  padding: 50px 0;
+}
+.galleryBtn {
+  float: right;
+  padding: 50px 0;
+}
+.galleryBtn a {
+	color: black;
+	border: solid #79C141 4px;
+	padding: 5px 18px;
+	font-size: 12px;
+	font-weight: bold;
+	border-radius: 22px;
+}
+/* gallery end */
+
+
+/* team start */
+.team {
+	background: #F7F7F7;
+}
+.teamTitle {
+	text-align: center;
+	padding-top: 101px;
+	padding-bottom: 60px;
+}
+
+.doctorList .col-md-3{
+  text-align: center;
+  padding-bottom: 120px;
+}
+
+.doctorList img {
+  width: 100%;
+  height: 320px;
+}
+.drname {
+	font-weight: bold;
+  margin-top: 21px;
+}
+.desig{
+  font-size: 12px;
+}
+/* team end */
+
+/* why choose us */
+.chooseTitle {
+	text-align: center;
+	padding-top: 100px;
+	padding-bottom: 60px;
+}
+.chooseContent .col-md-4 {
+	float: left;
+	padding-bottom: 100px;
+}
+.chooseContent img {
+	width: 100%;
+}
+/* why choose us end */
+
+
+/* blog start */
+.blog {
+	background: #F1FFE6;
+}
+
+.blogTitle {
+	text-align: center;
+	padding-top: 60px;
+}
+.blogContent .col-md-4 {
+	float: left;
+	text-align: center;
+	padding-bottom: 30px;
+	border: solid #f0ecec 1px;
+	margin-bottom: 60px;
+}
+.blogContent img {
+	width: 100%;
+	height: 300px;
+}
+
+.blogContent .col-md-4 .col-md-3 p {
+	font-size: 12px;
+	padding-top: 12px;
+}
+.blogPartTitle p {
+	font-size: 20px;
+	float: left;
+	font-weight: bold;
+}
+/* blog end */

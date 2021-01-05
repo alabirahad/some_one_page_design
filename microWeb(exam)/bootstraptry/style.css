@@ -1,0 +1,371 @@
+body,a,ul,h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+/* header start */
+.mainHeader{
+    background-image: url(icon/background1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 700px;
+}
+.mainHeader .col-md-3{
+    float: left;
+}.mainHeader .col-md-8{
+    float: right;
+}
+.logo img{
+    width: 190px;
+}
+.logo{
+    padding: 10px;
+}
+.mainHeader ul{
+     padding: 10px;
+     text-align: right;
+}
+.mainHeader li{
+     display: inline-block;
+     padding: 0 10px;
+}.mainHeader li a{
+     color: white;
+}
+
+.bannerimg img{
+    height: 400px;
+}
+
+.info{
+    margin-top: 70px;
+}
+.info .col-md-5{
+    float: left;
+    padding-left: 30px;
+    margin-top: 100px;
+}
+.info p{
+    color: white;
+    padding: 15px 0;
+}
+.info a{
+    color: black;
+    background-color: #fdba01;
+    padding: 5px;
+}
+
+
+
+.info .col-md-5 .firsth{
+    color: white;
+}
+
+.info .col-md-5 .secondh{
+    font-weight: bold;
+    color: #790404;
+}
+.info .col-md-7{
+    float: right;
+}
+
+
+.circle img{
+    height: 300px;
+    width: 300px;
+    margin-right: 200px;
+}
+/* header end */
+
+/* second section */
+
+.secondSection{
+    background-color: #f7f8f9;
+    padding: 150px 0;
+    text-align: center;
+}
+#seconddes{
+    background-color: #f7f8f9 !important;
+}
+.secondSection .col-md-3{
+    display: inline-block;
+    margin: 15px;
+    background: white;
+    padding: 10px;
+    
+}
+
+.secondSection h1{
+    margin-bottom: 20px;
+}
+.secondSection h3{
+    margin: 15px 0;
+}
+.secondSection a{
+    margin: 15px 0;
+    color: red;
+}
+
+/* second section end */
+
+/* about section */
+.aboutSection{
+    padding: 70px 0;
+}
+.aboutSection img{
+    height: 500px;
+    margin-left: 20px;
+
+}
+
+.aboutSection .col-md-5{
+    float: left;
+
+}
+.aboutSection .col-md-7{
+    float: right;
+    margin-top: 70px;
+    padding-right: 120px;
+
+}
+.aboutSection .col-md-7 h1{
+ padding: 20px 0;   
+ font-weight: bold;
+
+}.aboutSection .col-md-7 li{
+ padding-right: 120px;
+ display: inline-block;   
+
+}
+.aboutSection .col-md-7 p{
+ padding-bottom: 20px;   
+ color: #898989;
+
+}
+.aboutSection .col-md-7 li p{
+ padding-bottom: 8px;   
+ color: #898989;
+
+}
+
+
+/* about section end */
+
+/* service secttion */
+
+.serviceSection{
+    background-color: #ff4e50;
+    text-align: center;
+}
+
+.serviceSection .col-md-2{
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+.serviceSection .col-md-3{
+    float: left;
+    margin-bottom: 100px;
+   
+}
+.serviceBox{
+    background-color: #f32c2e;
+    padding: 20px;
+}
+.serviceSection .col-md-2 img{
+    
+    padding: 10px;
+}
+.serviceSection h1{
+    color: white;
+    font-weight: bold;
+    margin-top: 150px;
+}.serviceSection a{
+    color: white;
+}.serviceSection p{
+    color: white;
+}.serviceSection h4{
+    color: white;
+}
+#serd{
+    color: white;
+    padding: 20px 300px;
+}
+
+
+/* service secttion end */
+
+/* work sec */
+.workSection{
+    background-color: #f7f8f9;
+    text-align: center;
+    padding-bottom: 100px;
+}
+.workSection a{
+    color: black;
+    background: #fdba01;
+    padding: 10px;
+}
+
+.workSection h1{
+    margin-top: 120px;
+}.workSection p{
+    padding: 30px 270px;
+    color: #a3a3a3;
+}
+
+
+.workSection .col-md-4{
+    float: left;
+    margin-bottom: 40px;
+
+}
+.workBox{
+    background: black;
+    margin: 10px 0;
+}.workBox img{
+}
+
+.workBox:hover{
+    background-color: brown;
+}
+
+/* work sec end */
+
+/* slider */
+.carousel-control-prev {
+    border: 1px solid 
+    black;
+    height: 40px;
+    width: 40px;
+    margin-top: 141px;
+    color: black;
+}.carousel-control-next {
+    border: 1px solid 
+    black;
+    height: 40px;
+    width: 40px;
+    margin-top: 141px;
+    color: black;
+}
+/* slider end */
+
+/* plan  */
+
+
+.planSection{
+    background-color: #ff4e50;
+    
+}
+
+.planSection .col-md-2{
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+.planSection .col-md-3{
+    float: left;
+    margin-bottom: 100px;
+   
+}
+.planHeading{
+    background-color: #f32c2e;
+    padding: 20px;
+}
+.planDes{
+    background-color: white;
+}
+.planBox p{
+    color: #a19b9b !important;
+    padding: 10px;
+    padding-bottom: 30px;
+}
+.planSection .col-md-3 :hover{
+    background-color: #f32c2e !important;
+    line-height: 30px;
+    transition: .57s;
+}
+
+
+#but{
+    color: blue !important;
+    font-weight: bold;
+    padding-left: 5px;
+    padding: 10px 30px;
+    border: 1px solid rgb(32, 32, 32);
+}
+
+
+.planSection .col-md-2 img{
+    
+    padding: 10px;
+}
+.planSection h1{
+    color: white;
+    font-weight: bold;
+    margin-top: 150px;
+}
+.planSection p{
+    color: white;
+}.planSection h4{
+    color: white;
+}
+#plans{
+    color: white;
+    padding: 20px 300px;
+}
+
+.planSection h6{
+    color: white;
+
+}
+.planSection h6 span{
+    font-size: 60px;
+    
+}
+.planMh{
+    text-align: center;
+}
+
+/* plan section */
+
+/* seen */
+
+.seenSection{
+    text-align: center;
+
+}
+.seenSection h1{
+    padding: 80px;
+    font-weight: bold;
+
+}.seenSection img{
+    padding-bottom: 80px;
+
+}
+.seenSection p{
+    background-color: #fdba01;
+    color: black;
+    padding: 10px !important;
+    width: 200px;
+    margin-left: 450px;
+
+}
+
+footer li{
+    float: left;
+    padding: 30px;
+    
+}footer ul{
+    margin-top: 300px;
+    margin-left: 200px;
+    
+}
+
